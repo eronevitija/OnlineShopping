@@ -1,0 +1,102 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <script src="../Scripts/Register.js"></script>  
+  
+</head>
+<style>
+  
+  
+img{
+    width: 15%;
+    margin-left: 42%;
+    margin-top: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+    color: black;
+    margin-top: 1%;
+    
+}
+form{
+margin-left: 40%;
+box-sizing: border-box;
+margin-top: 3%;
+}
+
+input{
+    display: block;
+    width: 29%;
+    height: 4%;
+    border:none;
+    border-bottom: 2px solid silver;
+    margin: 2%;
+    font-size: 15px;
+}
+
+button{
+    width: 29%;
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 5%;
+    cursor: pointer;
+    background-color:#b590ca;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+</style>
+<body>
+
+    <header>
+<nav>
+    <ul>
+        <li><a href="../Index.html">Home</a></li>
+        <li><a href="Categories.html">Categories</a></li>
+        <li><a href="Shop.html">Shop</a></li>
+        <li><a href="#">Register</a></li>
+    </ul>
+</nav>
+
+    </header>
+
+
+    <div id="box">
+      
+        <img src="../Images/undraw_female_avatar_w3jk (1).png" alt="user icon">
+<h1>Register Here</h1>
+<form>   
+<input type="text" name="firstName" placeholder="First Name" id="name">
+<input type="text" name="lastName" placeholder="Last Name">
+<input type="email" name="email" placeholder="E-mail">
+<input type="password" name="password" placeholder="Password" minlength="8" id="password">
+<input type="password" name="newPassword" placeholder="Confirm Password" minlength="8" id="password">
+<input type="tel" name="phoneNumber" placeholder="Phone Number">
+<button onclick="btnSubmit()">Submit</button>
+</form>
+
+    </div>
+
+    <footer id="footer">
+ 
+        <h2>Follow us</h2>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.youtube.com">YouTube</a>
+        <a href="https://www.twitter.com">Twitter</a>
+      
+        
+        <p>&copy; Prishtine 2020</p>
+      
+      </footer>
+
+
+      
+</body>
+</html>

@@ -1,0 +1,304 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <script src="../Scripts/Shop.js"></script>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-family: Verdana;
+    }
+    img{
+        margin-top: 2%;
+        margin-left: 10%;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+  .box{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 20%;
+    height: 55%;
+    background-color: silver;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-right: 2%; 
+    }
+ button{
+    width: 20%;
+    height: 9%;
+    cursor: pointer;
+    background-color: #fdcb9e;
+    color: white;
+    border: none;
+}
+
+.image{
+    width: 10%;
+    display: inline-block;
+}
+
+h3{
+    text-align: center;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+h4{
+    margin-left: 4%;
+}
+
+.btn{
+    width: 5%;
+    height: 5%;
+    background-color:#fdcb9e ;
+    color: white;
+    margin-top: 4%;
+}
+
+
+
+</style>
+<body>
+    <header>
+<nav>
+    <ul>
+        <li><a href="../Index.html">Home</a></li>
+        <li><a href="./Categories.html">Categories</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="./Register.html">Register</a></li>
+    </ul>
+</nav>
+</header>
+
+
+<h1 id="women">Women's Collections</h1>
+<div class="box">
+<img src="../Images/images (1).png" alt="womens dress">
+<h3>Dress</h3>
+<p class="price">21.99$</p>
+<p>Quantity
+<select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+</select></p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+
+<div class="box">
+<img src="../Images/images.jpg" alt="womens bag" class="img2">
+<h3>Bag</h3>
+<p>14.45$</p>
+<p>Quantity
+<select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+</select>
+
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+
+<div class="box">
+<img src="../Images/icon-womens-shoes-66.png" alt="womens shoes">
+<h3>Shoes</h3>
+<p>45.00$</p>
+<p>Quantity
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+
+<div class="box">
+    <img src="../Images/img.png" alt="womens jacket">
+    <h3>Jacket</h3>
+   <p>16.99$</p>
+   <p>Quantity
+       <select>
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+           <option>4</option>
+       </select>
+   </p>
+    <button onclick="clickButon()">Buy</button>
+</div>
+
+
+<h1 id="men">Men's Collections</h1>
+<div class="box">
+    <img src="../Images/jacket.png" alt="mens jacket">
+    <h3>Jacket</h3>
+    <p>29.99$</p>
+    <p>Quantity
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+    </p>
+    <button>Buy</button>
+</div>
+
+
+<div class="box">
+<img src="../Images/suit.png" alt="mens shoes">
+<h3>Suit</h3>
+<p>110.00$</p>
+<p>Quantity
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+
+<div class="box">
+<img src="../Images/suit-1722706_960_720.png" alt="mens suit">
+<h3>Suit</h3>
+<p>132.00$</p>
+<p>Quantity
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+
+<div class="box">
+<img src="../Images/icon-laptop-bag-56.png" alt="mens bag">
+<h3>Bag</h3>
+<p>24.00$</p>
+<p class="quantity">Quantity
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+<h1 id="kids">Kids Collections</h1>
+
+<div class="box">
+<img src="../Images/kids-clothes-icon-64.png" alt="kids T-shirt">
+<h3>T-shirt</h3>
+<p>8.99$</p>
+<p>Quantity
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+
+<div class="box">
+<img src="../Images/clothes-icon-png-56.png" alt="kids dress">
+<h3>Dress</h3>
+<p>6.45$</p>
+<p>Quantity
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+
+<div class="box">
+<img src="../Images/socks.png" alt="kids socks">
+<h3>Socks</h3>
+<p>2.35$</p>
+<p>Quantity
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</p>
+<button onclick="clickButon()">Buy</button>
+</div>
+
+<div class="box">
+    <img src="../Images/school-bag-icon-19.png" alt="kids bag">
+    <h3>Bag</h3>
+    <p>17.89$</p>
+    <p>Quantity
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+    </p>
+    <button onclick="clickButon()">Buy</button>
+
+</div>
+
+
+<h1 id="books">Books</h1>
+<div>
+   <h4>50% SALE</h4>
+   <p>All just for 6.55$</p>
+  <abbr title="C# Books"><img src="../Images/undraw_bookshelves_xekd.png" alt="book icon"></abbr> 
+  <button class="btn">Buy</button>
+  <abbr title="JavaScript Books"><img src="../Images/undraw_book_lover_mkck (2).png" alt="book icon"></abbr>
+  <button class="btn">Buy</button>
+  <abbr title="CSS Book"><img src="../Images/undraw_reading_time_gvg0.png" alt="book icon"> </abbr>
+  <button class="btn">Buy</button>
+    <abbr title="HTML Book"> <img src="../Images/undraw_reading_list_4boi.png" alt="book icon"></abbr>
+    <button class="btn" onclick="clickButon()">Buy</button>
+</div>
+
+
+<footer id="footer">
+    <h2>Follow us</h2>
+    <a href="https://www.facebook.com">Facebook</a>
+    <a href="https://www.youtube.com">YouTube</a>
+    <a href="https://www.twitter.com">Twitter</a>
+
+    <p>&copy; Prishtine 2020</p>  
+  </footer>
+
+ 
+</body>
+</html>
